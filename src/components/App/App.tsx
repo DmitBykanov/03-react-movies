@@ -7,8 +7,7 @@ import MovieGrid from "../MovieGrid/MovieGrid";
 import MovieModal from "../MovieModal/MovieModal";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import Loader from "../Loader/Loader";
-import toast from "react-hot-toast";
-import { Toaster } from "react-hot-toast";
+import { Toaster, toast } from "react-hot-toast";
 
 function App() {
   const [movies, setMovies] = useState<Movie[]>([]);
